@@ -1,0 +1,4 @@
+C:/Users/gregw/Downloads/qt-test/build/CMakeFiles/qt-test.dir
+C:/Users/gregw/Downloads/qt-test/build/CMakeFiles/INSTALL.dir
+C:/Users/gregw/Downloads/qt-test/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/gregw/Downloads/qt-test/build/CMakeFiles/ZERO_CHECK.dir

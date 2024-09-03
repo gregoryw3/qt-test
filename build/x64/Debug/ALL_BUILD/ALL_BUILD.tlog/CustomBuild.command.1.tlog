@@ -1,0 +1,10 @@
+^C:\USERS\GREGW\DOWNLOADS\QT-TEST\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/gregw/Downloads/qt-test -BC:/Users/gregw/Downloads/qt-test/build --check-stamp-file C:/Users/gregw/Downloads/qt-test/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
